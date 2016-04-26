@@ -1,0 +1,60 @@
+<?php
+
+
+function greetings_menu() {
+    $items = array();
+    $items['hello_user'] = array(
+        'title' => "Hello! Thanks for logging into What Happending",
+        'page callback' => 'say_hello',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    $items['goodbye_admin'] = array(
+        'title' => 'Farewell Jon or Blake!',
+        'page callback' => 'say_farewell_admin',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    $items['goodbye_authenticated'] = array(
+        'title' => 'Farewell user!',
+        'page callback' => 'say_farewell_authenticated',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+ }
+
+ function say_hello() {
+     $user = ($GLOBALS['user']);
+     $username = $user->name;
+     if (in_array('administrator', array_values($user->roles))) {
+         return 'Welcome Jon or Blake!';
+     } elseif (in_array('authenticated user', array_values($user->roles))) {
+         return "Welcome $username!";
+     } else {
+         return "Hello human";
+     }
+ }
+
+ function say_farewell_admin() {
+     return "See ya later, MASTER!";
+ }
+ function say_farewell_authenticated() {
+
+     return "Goodbye! Visit What Happending again soon! New episodes EVERY WEEK!";
+ }
+
+ function greetings_user_login() {
+     $_GET['destination'] = 'hello_user';
+ }
+
+ function greetings_user_logout() {
+
+     if (in_array('administrator', array_values($user->roles))) {
+         $_GET['destination'] = 'goodbye_admin';
+     } elseif (in_array('authenticated user', array_values($user->roles))) {
+         $_GET['destination'] = 'goodbye_authenticated';
+     } else {
+         return "how did you even get this message";
+     }
+ }

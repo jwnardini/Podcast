@@ -319,7 +319,7 @@ function audiofield_jplayer($player_path, $audio_file, $options) {
     'autoplay' => 0,
     'solution' => 'html, flash',
     'preload' => 'metadata',
-    'volume' => 80,
+    'volume' => 100,
     'muted' => FALSE,
     'repeat' => 'none',
     'backgroundColor' => '000000',

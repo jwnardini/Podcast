@@ -1,0 +1,5 @@
+name = Greetings
+description = Provides hello and goodbye messages depending on user authentication.
+package = Custom modules
+core = 7.x
+files[] = greetings.module
