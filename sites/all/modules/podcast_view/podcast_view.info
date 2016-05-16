@@ -1,0 +1,5 @@
+name = Podcast View Module
+description = A module to use Ajax to view recent podcasts
+package = Custom Modules
+core = 7.x
+files[] = podcast_view.module
