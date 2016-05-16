@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Podcast episodes feature.
+ */
+
+include_once 'podcast_episodes.features.inc';

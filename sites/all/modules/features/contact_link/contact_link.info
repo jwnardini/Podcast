@@ -1,0 +1,11 @@
+name = Contact link
+description = Contact the site!
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_contact:contact
+project path = sites/all/modules/features
