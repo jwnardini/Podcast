@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//localhost:8888/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://localhost:8888/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost:8888/podcasts/pti-episode</loc><lastmod>2016-04-21T23:39Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/murder-she-wrote</loc><lastmod>2016-05-16T20:59Z</lastmod><changefreq>hourly</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/oz</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/doogie-howser</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/alf</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/21-jump-street</loc><lastmod>2016-05-16T17:40Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/melrose-place</loc><lastmod>2016-05-16T17:40Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/sledgehammer</loc><lastmod>2016-05-16T17:51Z</lastmod><changefreq>daily</changefreq></url>
+</urlset>
