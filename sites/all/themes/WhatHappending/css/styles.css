@@ -1776,3 +1776,35 @@ tr.drag-previous {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   word-wrap: break-word;
 }
+
+/* MOLLIE'S ADDITIONS */
+
+header {
+    height: 300px;
+    background-color: grey;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.breadcrumb {
+    display: none;
+}
+
+body > div.layout-center > div > div {
+    background-color: black;
+    color: white;
+}
+
+body > div.layout-center > div > aside {
+    background-color: #EEE;
+}
+
+body > div.layout-center > div > main {
+    border: 1px grey solid;
+}
