@@ -2,12 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="//localhost:8888/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://localhost:8888/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-<url><loc>http://localhost:8888/podcasts/pti-episode</loc><lastmod>2016-04-21T23:39Z</lastmod><changefreq>monthly</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/murder-she-wrote</loc><lastmod>2016-05-16T20:59Z</lastmod><changefreq>hourly</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/oz</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/doogie-howser</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/alf</loc><lastmod>2016-05-16T17:41Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/21-jump-street</loc><lastmod>2016-05-16T17:40Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/melrose-place</loc><lastmod>2016-05-16T17:40Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://localhost:8888/podcasts/sledgehammer</loc><lastmod>2016-05-16T17:51Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/felicity</loc><lastmod>2016-05-17T19:25Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/walker-texas-ranger</loc><lastmod>2016-05-17T19:24Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/sledge-hammer</loc><lastmod>2016-05-17T19:24Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/doogie-howser</loc><lastmod>2016-05-17T19:24Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/21-jump-street</loc><lastmod>2016-05-17T19:24Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/melrose-place</loc><lastmod>2016-05-17T19:23Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/reba</loc><lastmod>2016-05-17T23:05Z</lastmod><changefreq>hourly</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/reboot</loc><lastmod>2016-05-17T19:23Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/alf</loc><lastmod>2016-05-17T19:23Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/lone-ranger</loc><lastmod>2016-05-17T19:22Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/martin</loc><lastmod>2016-05-17T19:19Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/wings</loc><lastmod>2016-05-17T19:19Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/dinosaurs</loc><lastmod>2016-05-17T19:19Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/oz</loc><lastmod>2016-05-17T19:19Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8888/podcasts/murder-she-wrote</loc><lastmod>2016-05-17T20:14Z</lastmod><changefreq>daily</changefreq></url>
 </urlset>
