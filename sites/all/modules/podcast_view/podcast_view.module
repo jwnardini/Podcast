@@ -21,7 +21,7 @@ function podcast_view_ajax_callback($js, $node_id){
       $html = render($build);
 
       $commands = array();
-      $commands[] = ajax_command_html('podcast-view-ajax-wrapper', $html);
+      $commands[] = ajax_command_html('#podcast-view-ajax-wrapper', $html);
 
       print ajax_render($commands);
       exit;
