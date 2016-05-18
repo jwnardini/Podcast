@@ -170,7 +170,7 @@ body > div.layout-center > div > main {
   height:500px;
   border:1px solid #000;
 
- background:url(http://localhost:8888/sites/all/themes/radix/assets/images/what_happending_header2.jpg);
+ background:url(/sites/all/themes/radix/assets/images/what_happending_header2.jpg);
  -webkit-animation:100s scroll infinite linear;
 -moz-animation:100s scroll infinite linear;
 -o-animation:100s scroll infinite linear;
