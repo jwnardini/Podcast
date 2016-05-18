@@ -4,6 +4,22 @@ body {
     /*background-color: black;*/
 }
 
+body > div.layout-center > div > aside {
+    max-width:300px;
+    box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
+    background:#fff;
+    margin-right:795px;
+    margin-top:30px;
+    border:1px solid #d9d9d9;
+}
+body > div.layout-center > div > main {
+    border:none;
+}
+
+.layout-swap {
+    background:#FEFEFE;
+}
+
 a {
     color: grey;
 }
@@ -51,16 +67,24 @@ span.site-name {
     color: #EEE !important;
 }
 
-#sidebar_second {
+#sidebar_left {
     width: 25%;
     float: left;
+    padding: 10px;
+    background-color: #fefefe;
+    /*height: 100vh;*/
+}
+
+#sidebar_second {
+    width: 25%;
+    float: right;
     padding: 10px;
     background-color: #EEE;;
     /*height: 100vh;*/
 }
 
 #content {
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 
 .node {
@@ -84,4 +108,47 @@ article > div.content > .field-name-field-podcast-image {
 
 .scrolling {
 
+}
+
+
+.region-sidebar-left {
+    max-width:300px;
+    box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
+    background:#fff;
+    padding: 10px;
+    margin-right:10px;
+    border:1px solid #d9d9d9;
+}
+
+body > div.layout-center > div > main {
+    border:none;
+}
+
+.layout-swap {
+    background:#FEFEFE;
+}
+
+.col-xs-9 {
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px #fff;
+}
+
+.col-xs-9 img {
+    max-width:100%;
+    min-width: 200px;
+    height: auto;
+}
+
+
+
+.node-podcast-episode {
+    float:left;
+}
+
+@media screen and (max-width: 600px) {
+    #sidebar_left {
+        display:none;
+    }
+    .col-xs-9 {
+        width:100%;
+    }
 }

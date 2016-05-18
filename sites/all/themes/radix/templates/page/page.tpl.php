@@ -75,14 +75,18 @@
           </ul>
         <?php endif; ?>
       </div>
+    <div id="content">
+      <div class="row">
+
+          <div id="sidebar_left" class="col-xs-3">
+              <?php print render($page['sidebar_left']); ?>
+          </div>
+
+          <div class="col-xs-9">
+              <?php print render($page['content']); ?>
+          </div>
+      </div>
     </div>
-    <div id="content" class="container">
-
-        <div id="sidebar_second">
-            <?php print render($page['sidebar_second']); ?>
-        </div>
-
-      <?php print render($page['content']); ?>
     </div>
   </div> <!-- /#main -->
 </div> <!-- /#main-wrapper -->
