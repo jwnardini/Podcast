@@ -28,11 +28,12 @@ span.site-name {
     font-size: 3em;
     color: black;
     margin-left: 100px;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 #logo {
-    width: 75px;
+    margin-top: 50px;
+    width: 300px;
     float: left;
 }
 
