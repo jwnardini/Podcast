@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    /*background-color: black;*/
+}
+
+a {
+    color: grey;
+}
+
+span.site-name {
+    font-size: 3em;
+    color: black;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+#logo {
+    width: 75px;
+    float: left;
+}
+
+.navbar {
+    height: 400px;
+    margin-bottom: 0;
+    border: 0px;
+    border-radius: 0px;
+    background-image: url('../images/what_happending_header2.jpg');
+    background-size: contain;
+}
+
+.navbar-collapse {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-collapse > .search-form {
+    display: none;
+}
+
+#main-menu {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    clear: both;
+}
+
+#main-menu li {
+    float: left;
+    color: #EEE !important;
+}
+
+#sidebar_second {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    background-color: #EEE;;
+    /*height: 100vh;*/
+}
+
+#content {
+    padding: 0px 15px;
+}
+
+.node {
+    width: 73%;
+    float: right;
+}
+
+.node-podcast-episode {
+    padding: 15px;
+    /*border-bottom: 2px solid black;*/
+    margin-bottom: 10px;
+}
+
+article > div.content > .field-name-field-podcast-image {
+    margin-bottom: 10px;
+}
+
+.form-item {
+    margin-top: 0px;
+}
+
+.scrolling {
+
+}

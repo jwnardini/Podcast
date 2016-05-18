@@ -56,6 +56,10 @@
       endif;
     ?>
 
+    <div id="right-sidebar">
+      <?php print render($page['right_sidebar']); ?>
+    </div>
+
     <main class="<?php print $content_class; ?>" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>

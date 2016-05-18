@@ -1825,3 +1825,7 @@ body > header > div > div > h1 > a > span {
     font-size: 4em;
     margin-top: 100px;
 }
+
+aside.layout-3col__second-left-sidebar {
+    float: right;
+}
