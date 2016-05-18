@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Next Week's Episode feature.
+ */
+
+include_once 'next_week_s_episode.features.inc';

@@ -1,0 +1,16 @@
+name = Next Week's Episode
+description = Next week's episode
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = podcast_episodes
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = comment_body
+features[field_base][] = field_air_date
+features[field_instance][] = comment-comment_node_next_week_s_episode-comment_body
+features[field_instance][] = node-next_week_s_episode-body
+features[field_instance][] = node-next_week_s_episode-field_air_date
+features[node][] = next_week_s_episode
+project path = sites/all/modules/features
