@@ -179,3 +179,14 @@ function radix_preprocess_page(&$variables) {
   // Add a copyright message.
   $variables['copyright'] = t('Drupal is a registered trademark of Dries Buytaert.');
 }
+
+// function radix_page_alter(&$page) {
+//   $current_path = current_path();
+//   var_dump($current_path);
+//   // $current_cut = strstr($current_path, '/');
+//   // $current_output = str_replace($current_cut)
+//
+//   if ($current_path == 'node/10') {
+//     drupal_add_js("jQuery(document).ready(function($) { $('#content p').addClass('abouttext'); });", 'inline');
+//   }
+// }

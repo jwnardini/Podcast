@@ -318,10 +318,6 @@ display:flex;
   color: #EEE;
 }
 
-#content > div.content-column > div > article > div > div > div > div > p {
-  color: #EEE;
-}
-
 #content > div > div.col-xs-9 > div > article > h2 > a:hover {
   transition:.2s;
 }
@@ -378,4 +374,35 @@ html body.admin-menu {
 }
 .node-podcast-episode:hover {
   border:1px solid #333;
+}
+
+.about-text > p {
+  text-align: justify;
+  padding-left:0 !important;
+}
+.block__title, .about-text {
+  color:#EEE;
+}
+
+.about-text-name {
+  font-size:18px;
+  margin-bottom:10px;
+  text-decoration:underline;
+}
+
+.col-sm-6 {
+  font-size:15px;
+  padding-left:0;
+}
+
+#content > div.content-column > div > article > div > div > div > div > div > div > div.row > div > p, #content > div.content-column > div > article > div > div > div > div > div > div.row > div > p  {
+  padding-left:0;
+}
+
+.node-product {
+  border:1px solid #FFF;
+}
+
+#content > div.content-column > div > div > div > table > tbody > tr > td > div.views-field.views-field-title > span > a {
+  font-size:18px;
 }
