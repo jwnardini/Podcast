@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     /*background-color: black;*/
+    background: #FCFCFC;
 }
 
 body > div.layout-center > div > aside {
@@ -21,7 +22,7 @@ body > div.layout-center > div > main {
 }
 
 a {
-    color: grey;
+    color: #1a6293;
 }
 
 span.site-name {
@@ -85,7 +86,7 @@ span.site-name {
 }
 
 #content {
-    padding: 10px 15px;
+    padding: 10px 0px;
 }
 
 .node {
@@ -96,7 +97,10 @@ span.site-name {
 .node-podcast-episode {
     padding: 15px;
     /*border-bottom: 2px solid black;*/
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
+    background:#FFF;
+    width:100%;
 }
 
 article > div.content > .field-name-field-podcast-image {
@@ -127,10 +131,6 @@ body > div.layout-center > div > main {
 
 .layout-swap {
     background:#FEFEFE;
-}
-
-.col-xs-9 {
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px #fff;
 }
 
 .col-xs-9 img {
@@ -193,7 +193,25 @@ display:flex;
   text-align:center;
 }
 
+.message-wrap-1 {
+  height:100%;
+}
 
+.message-text {
+  color:#FFF;
+  font-size:40px;
+}
+
+.message-wrap-2 {
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+  text-align:center;
+}
+
+#content > div > div.col-xs-9 > div > article > h2 > a:hover {
+  transition:.2s;
+}
 
 
 

@@ -12,7 +12,7 @@
 ?>
 <div class="container">
   <header id="header" class="header" role="header">
-    <div class="logo-wrap-1">
+    <div class="logo-wrap-1 col-sm-6">
       <div class="logo-wrap-2">
         <img src="/sites/all/themes/radix/assets/images/WHLogo.jpg">
 
@@ -20,9 +20,9 @@
 
       </div>
     </div>
-    <div class="logo-message-4">
-      <div class="logo-message-5">
-          The podcast where we only watch the pilot and series finale!
+    <div class="message-wrap-1 col-sm-6">
+      <div class="message-wrap-2">
+        <div class="message-text"><div><span style="color:#ff0000;">W</span><span style="color:#ff1900;">e</span><span style="color:#ff3300;"> </span><span style="color:#ff4c00;">a</span><span style="color:#ff6600;">r</span><span style="color:#ff7f00;">e</span><span style="color:#ff9900;"> </span><span style="color:#ffb200;">t</span><span style="color:#ffcc00;">h</span><span style="color:#ffe500;">e</span><span style="color:#ffff00;"> </span><span style="color:#ccff00;">y</span><span style="color:#99ff00;">o</span><span style="color:#66ff00;">u</span><span style="color:#33ff00;">t</span><span style="color:#00ff00;">h</span><span style="color:#00ff33;"> </span><span style="color:#00ff66;">o</span><span style="color:#00ff99;">f</span><span style="color:#00ffcc;"> </span><span style="color:#00ffff;">t</span><span style="color:#00ccff;">h</span><span style="color:#0099ff;">e</span><span style="color:#0066ff;"> </span><span style="color:#0033ff;">n</span><span style="color:#0000ff;">a</span><span style="color:#1c00ff;">t</span><span style="color:#3800ff;">i</span><span style="color:#5300ff;">o</span><span style="color:#6f00ff;">n</span><span style="color:#8b00ff;">.</span></div></div>
       </div>
     </div>
   </header>
@@ -76,7 +76,7 @@
               <?php print render($page['sidebar_left']); ?>
           </div>
 
-          <div class="col-xs-9">
+          <div class="col-xs-6">
               <?php print render($page['content']); ?>
           </div>
       </div>
