@@ -14,7 +14,7 @@
   <header id="header" class="header" role="header">
     <div class="logo-wrap-1 col-sm-6">
       <div class="logo-wrap-2">
-        <img src="/sites/all/themes/radix/assets/images/WHLogo.jpg">
+        <img src="/sites/all/themes/radix/assets/images/what-happending-logo-png2.png">
 
 
 
@@ -75,7 +75,7 @@
           </div>
 
           <div class="content-column">
-              <?php print render($page['content']); ?>
+            <?php print render($page['content']); ?>
           </div>
     </div>
     </div>

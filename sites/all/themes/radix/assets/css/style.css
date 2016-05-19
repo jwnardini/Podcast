@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     /*background-color: black;*/
     background: #FCFCFC;
 }
@@ -38,6 +38,11 @@ span.site-name {
     float: left;
 }
 
+.logo-wrap-2 img {
+    margin-left:100px;
+    width: 400px;
+}
+
 .navbar {
     height: 400px;
     margin-bottom: 0;
@@ -72,7 +77,6 @@ span.site-name {
 #sidebar_left {
     width: 25%;
     float: left;
-    padding: 10px;
     background-color: #fefefe;
     /*height: 100vh;*/
 }
@@ -116,16 +120,30 @@ article > div.content > .field-name-field-podcast-image {
     margin-top: 0px;
 }
 
-.scrolling {
-
+.block-follow {
+    padding: 10px;
 }
 
+#search-block-form > div > div {
+    padding: 10px;
+}
+
+#sidebar_left > div > div.block.block-views.contextual-links-region {
+    padding: 10px;
+}
+
+#sidebar_left.col-xs-3 {
+    padding: 0px;
+}
+
+.block__title {
+    margin-top: 0px;
+}
 
 .region-sidebar-left {
     max-width:300px;
     box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
     background:#fff;
-    padding: 10px;
     margin-right:10px;
     border:1px solid #d9d9d9;
 }
@@ -147,13 +165,15 @@ body > div.layout-center > div > main {
 #content > div.content-column > div > article > div.content > div.field.field-name-field-podcast-image.field-type-image.field-label-hidden > div > div > img {
   height:100%;
   width:100%;
-  opacity:.75;
+  position:relative;
+
 }
 
 #content > div.content-column > div > article > h2 > a {
   color:#FFF;
   font-family:Poppins;
   letter-spacing:1px;
+  font-weight:600;
 }
 
 
@@ -162,9 +182,9 @@ body > div.layout-center > div > main {
   z-index:200;
 }
 
-
 .node-podcast-episode {
-    float:left;
+  float:left;
+  position:relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -177,15 +197,14 @@ body > div.layout-center > div > main {
 }
 
 .region-sidebar-left {
-  padding:15px;
-  width:330px;
-  max-width:400px;
+  /*width:330px;
+  max-width:400px;*/
 }
 
 .col-xs-9 {
-  width:67%;
+  /*width:67%;*/
   float:right;
-  margin-top:10px;
+  /*margin-top:10px;*/
 }
 
 #header{
