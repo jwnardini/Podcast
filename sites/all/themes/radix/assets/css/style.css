@@ -37,6 +37,11 @@ span.site-name {
     float: left;
 }
 
+.logo-wrap-2 img {
+    margin-left:100px;
+    width: 400px;
+}
+
 .navbar {
     height: 400px;
     margin-bottom: 0;
