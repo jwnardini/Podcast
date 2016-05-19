@@ -10,44 +10,38 @@
  * @see html.tpl.php
  */
 ?>
-<header id="header" class="header" role="header">
-  <div class="container">
-     <div class="scrolling">
-         <nav class="navbar navbar-default" role="navigation">
-             <!-- Brand and toggle get grouped for better mobile display -->
-             <div class="navbar-header">
-                 <?php if ($site_name || $logo): ?>
-                     <a href="<?php print $front_page; ?>" class="navbar-brand" rel="home" title="<?php print t('Home'); ?>">
-                         <?php if ($logo): ?>
-                             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" id="logo" />
-                         <?php endif; ?>
-                         <?php if ($site_name): ?>
-                             <span class="site-name"><?php print $site_name; ?></span>
-                         <?php endif; ?>
-                     </a>
-                 <?php endif; ?>
-             </div>
-         </nav>
-      </div> <!-- /.navbar-header -->
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-
-    </nav><!-- /.navbar -->
-
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <?php if ($main_menu): ?>
-        <ul id="main-menu" class="menu nav navbar-nav">
-          <?php print render($main_menu); ?>
-        </ul>
-      <?php endif; ?>
-      <?php if ($search_form): ?>
-        <?php print $search_form; ?>
-      <?php endif; ?>
-    </div><!-- /.navbar-collapse -->
+<div class="container">
+  <header id="header" class="header" role="header">
+    <div class="logo-wrap-1">
+      <div class="logo-wrap-2">
+        <img src="/sites/all/themes/radix/assets/images/WHLogo.jpg">
 
 
-  </div> <!-- /.container -->
-</header>
+
+      </div>
+    </div>
+    <div class="logo-message-4">
+      <div class="logo-message-5">
+          The podcast where we only watch the pilot and series finale!
+      </div>
+    </div>
+  </header>
+  <div class="nav-wrap">
+
+ <!-- Collect the nav links, forms, and other content for toggling -->
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+   <?php if ($main_menu): ?>
+     <ul id="main-menu" class="menu nav navbar-nav">
+       <?php print render($main_menu); ?>
+     </ul>
+   <?php endif; ?>
+   <?php if ($search_form): ?>
+     <?php print $search_form; ?>
+   <?php endif; ?>
+  </div><!-- /.navbar-collapse -->
+  </div>
+</div>
 
 <div id="main-wrapper" class="">
   <div id="main" class="main">

@@ -28,11 +28,12 @@ span.site-name {
     font-size: 3em;
     color: black;
     margin-left: 100px;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 #logo {
-    width: 75px;
+    margin-top: 50px;
+    width: 300px;
     float: left;
 }
 
@@ -41,8 +42,8 @@ span.site-name {
     margin-bottom: 0;
     border: 0px;
     border-radius: 0px;
-    background-image: url('../images/what_happending_header2.jpg');
     background-size: contain;
+    height:50px;
 }
 
 .navbar-collapse {
@@ -158,4 +159,78 @@ body > div.layout-center > div > main {
     .col-xs-9 {
         width:100%;
     }
+}
+
+.region-sidebar-left {
+  padding:15px;
+  width:330px;
+  max-width:400px;
+}
+
+.col-xs-9 {
+  width:67%;
+  float:right;
+  margin-top:10px;
+}
+
+#header{
+  height:500px;
+  border:1px solid #000;
+
+ background:url(/sites/all/themes/radix/assets/images/what_happending_header2.jpg);
+ -webkit-animation:100s scroll infinite linear;
+-moz-animation:100s scroll infinite linear;
+-o-animation:100s scroll infinite linear;
+-ms-animation:100s scroll infinite linear;
+animation:100s scroll infinite linear;
+display:flex;
+}
+
+.logo-wrap-1 {
+  height:100%;
+  text-align:center;
+}
+.logo-wrap-2 {
+  opacity:.85;
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+.logo-wrap {
+  text-align:center;
+}
+
+
+
+
+
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
