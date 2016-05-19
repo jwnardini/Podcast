@@ -54,7 +54,6 @@ span.site-name {
     border: 0px;
     border-radius: 0px;
     background-size: contain;
-    height:50px;
 }
 
 .navbar-collapse {
@@ -249,6 +248,27 @@ article h2 {
   }
 }
 
+@media screen and (min-width:769px) {
+  #main-menu {
+    height:50px;
+  }
+}
+/** Tablet **/
+@media screen and (max-width:768px) {
+  .search-form input {
+    width:70%;
+    margin:0 auto;
+    margin-bottom:5px;
+  }
+  #edit-basic {
+    text-align:center;
+  }
+  #edit-submit--2 {
+    width:40%;
+  }
+}
+
+
 
 .region-sidebar-left {
   /*width:330px;
@@ -322,12 +342,14 @@ display:flex;
   transition:.2s;
 }
 
-#sidebar_left {
-  display:none;
-}
+
 
 a {
   color: #84BAAB;
+}
+
+#edit-submit--2 {
+  background: #84BAAB;
 }
 
 @-webkit-keyframes scroll{
@@ -404,5 +426,32 @@ html body.admin-menu {
 }
 
 #content > div.content-column > div > div > div > table > tbody > tr > td > div.views-field.views-field-title > span > a {
-  font-size:18px;
+  font-size:25px;
+}
+
+#sidebar_left {
+  display:none;
+}
+
+#content > div.content-column > div > div > div > table > tbody > tr > td > div > div > h3 {
+  font-size:15px;
+}
+
+.btn-primary {
+  background:#456078;
+  border:none;
+}
+
+table td[class*=col-], table th[class*=col-] {
+  display:block;
+  margin-bottom:35px;
+}
+
+#content > div.content-column > div > div > div > table > tbody > tr > td > div {
+  color:#EEE;
+  margin-bottom:8px;
+}
+
+.search-form {
+  margin-right:0;
 }
