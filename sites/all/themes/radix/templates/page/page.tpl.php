@@ -44,8 +44,8 @@
 </div>
 
 <div id="main-wrapper" class="">
+  <div class="container">
   <div id="main" class="main">
-    <div class="container">
 
       <?php if ($messages): ?>
         <div id="messages">
@@ -70,16 +70,13 @@
         <?php endif; ?>
       </div>
     <div id="content">
-      <div class="row">
-
           <div id="sidebar_left" class="col-xs-3">
               <?php print render($page['sidebar_left']); ?>
           </div>
 
-          <div class="col-test">
+          <div class="content-column">
               <?php print render($page['content']); ?>
           </div>
-      </div>
     </div>
     </div>
   </div> <!-- /#main -->
