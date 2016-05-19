@@ -106,10 +106,6 @@ article > div.content > .field-name-field-podcast-image {
     margin-top: 0px;
 }
 
-.scrolling {
-
-}
-
 .block-follow {
     padding: 10px;
 }
@@ -120,6 +116,14 @@ article > div.content > .field-name-field-podcast-image {
 
 #sidebar_left > div > div.block.block-views.contextual-links-region {
     padding: 10px;
+}
+
+#sidebar_left.col-xs-3 {
+    padding: 0px;
+}
+
+.block__title {
+    margin-top: 0px;
 }
 
 .region-sidebar-left {
@@ -162,15 +166,14 @@ body > div.layout-center > div > main {
 }
 
 .region-sidebar-left {
-  padding:15px;
-  width:330px;
-  max-width:400px;
+  /*width:330px;
+  max-width:400px;*/
 }
 
 .col-xs-9 {
-  width:67%;
+  /*width:67%;*/
   float:right;
-  margin-top:10px;
+  /*margin-top:10px;*/
 }
 
 #header{
