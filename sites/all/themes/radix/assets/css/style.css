@@ -25,6 +25,11 @@ a {
     color: #1a6293;
 }
 
+a:hover, a:active {
+  color: #465E74;
+  text-decoration: none;
+}
+
 span.site-name {
     font-size: 3em;
     color: black;
@@ -103,8 +108,7 @@ span.site-name {
     margin-bottom: 25px;
     box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
     background:#FFF;
-    width:47.5%;
-    margin-right:25px;
+    width:49%;
 }
 
 .main {
@@ -162,6 +166,18 @@ body > div.layout-center > div > main {
     height: auto;
 }
 
+article h2 {
+  margin-left: 1em;
+}
+
+.field-item.even p {
+  padding: 0px 10px;
+}
+
+.easy_social_box {
+  padding: 0px 10px;
+}
+
 #content > div.content-column > div > article > div.content > div.field.field-name-field-podcast-image.field-type-image.field-label-hidden > div > div > img {
   height:100%;
   width:100%;
@@ -174,6 +190,12 @@ body > div.layout-center > div > main {
   font-family:Poppins;
   letter-spacing:1px;
   font-weight:600;
+  transition: .2s;
+}
+
+#content > div.content-column > div > article > h2 > a:hover {
+  color: #D9D9D9;
+  transition: .2s;
 }
 
 
@@ -187,14 +209,46 @@ body > div.layout-center > div > main {
   position:relative;
 }
 
+@media screen and (max-width: 1200px) {
+  article {
+      width:100% !important;
+      margin-right: 0px !important;
+  }
+
+  .logo-wrap-2 img {
+      margin-left:75px;
+      width: 400px;
+  }
+}
+
 @media screen and (max-width: 600px) {
     #sidebar_left {
         display:none;
     }
-    .col-xs-9 {
-        width:100%;
+
+    .logo-wrap-2 img {
+        margin-left:75px;
+        width: 300px;
+    }
+
+    article {
+        width:100% !important;
+        margin-right: 0px !important;
     }
 }
+
+@media screen and (max-width: 400px) {
+  .logo-wrap-2 img {
+      margin-left:75px;
+      width: 200px;
+  }
+
+  article {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+}
+
 
 .region-sidebar-left {
   /*width:330px;
@@ -264,8 +318,9 @@ display:flex;
   display:none;
 }
 
-
-
+a {
+  color: #84BAAB;
+}
 
 @-webkit-keyframes scroll{
   100%{
