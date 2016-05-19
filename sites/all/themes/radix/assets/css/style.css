@@ -69,9 +69,10 @@ span.site-name {
 
 #main-menu {
     width: 100%;
-    background-color: black;
+    background-color: #456078;
     margin: 0;
     clear: both;
+    margin-bottom:15px;
 }
 
 #main-menu li {
@@ -107,8 +108,9 @@ span.site-name {
     /*border-bottom: 2px solid black;*/
     margin-bottom: 25px;
     box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
-    background:#FFF;
+    background:#EEE;
     width:49%;
+    border:1px solid #333;
 }
 
 .main {
@@ -182,7 +184,10 @@ article h2 {
   height:100%;
   width:100%;
   position:relative;
+}
 
+#content > div.content-column > div > article:hover > h2 > a {
+  color:#84BAAB;
 }
 
 #content > div.content-column > div > article > h2 > a {
@@ -190,11 +195,6 @@ article h2 {
   font-family:Poppins;
   letter-spacing:1px;
   font-weight:600;
-  transition: .2s;
-}
-
-#content > div.content-column > div > article > h2 > a:hover {
-  color: #D9D9D9;
   transition: .2s;
 }
 
@@ -263,7 +263,7 @@ article h2 {
 
 #header{
   height:500px;
-  border:1px solid #000;
+  border:none !important;
 
  background:url(/sites/all/themes/radix/assets/images/what_happending_header2.jpg);
  -webkit-animation:100s scroll infinite linear;
@@ -310,6 +310,18 @@ display:flex;
   justify-content: space-between;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+  color: #456078;
+}
+
+.title {
+  color: #EEE;
+}
+
+#content > div.content-column > div > article > div > div > div > div > p {
+  color: #EEE;
+}
+
 #content > div > div.col-xs-9 > div > article > h2 > a:hover {
   transition:.2s;
 }
@@ -350,4 +362,20 @@ a {
   100%{
     background-position:0px -3000px;
   }
+}
+
+html body.admin-menu {
+  background:#1a171a;
+}
+
+.navbar-nav>li>a {
+  color:#EEE;
+}
+
+#content > div.content-column > div > article > div.content > div.field.field-name-field-podcast-image.field-type-image.field-label-hidden > div > div > img:hover {
+  opacity:.95;
+  transition:.2s;
+}
+.node-podcast-episode:hover {
+  border:1px solid #333;
 }
