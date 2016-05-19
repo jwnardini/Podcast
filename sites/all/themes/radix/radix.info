@@ -1,5 +1,5 @@
-name        = Radix
-description = A Drupal theme with Bootstrap and Sass.
+name        = What Happending Radix Sub-Theme
+description = A Drupal theme with Bootstrap and Sass created for What Happending.
 screenshot  = screenshot.png
 core        = 7.x
 
