@@ -100,7 +100,8 @@ span.site-name {
     margin-bottom: 25px;
     box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
     background:#FFF;
-    width:100%;
+    width:47.5%;
+    margin-right:25px;
 }
 
 article > div.content > .field-name-field-podcast-image {
@@ -209,8 +210,17 @@ display:flex;
   text-align:center;
 }
 
+.region-content {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 #content > div > div.col-xs-9 > div > article > h2 > a:hover {
   transition:.2s;
+}
+
+#sidebar_left {
+  display:none;
 }
 
 

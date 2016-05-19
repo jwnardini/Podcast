@@ -76,7 +76,7 @@
               <?php print render($page['sidebar_left']); ?>
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-test">
               <?php print render($page['content']); ?>
           </div>
       </div>
